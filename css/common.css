@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+}
+
+.ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.bxs-train {
+    position: relative !important;
+    right: 0 !important;
+    top: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+ }
